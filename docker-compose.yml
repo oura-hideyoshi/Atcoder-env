@@ -3,5 +3,8 @@ version: '3'
 services:
   env:
     build: .
+    volumes: 
+      - .:/workspace:cached
     image: my-atcoder-env-image
     container_name: my-atcoder-env
+    command: /bin/sh -c "while sleep 1000; do :; done"
