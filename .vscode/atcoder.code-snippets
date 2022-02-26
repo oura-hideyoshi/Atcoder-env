@@ -1,0 +1,10 @@
+{
+	"map int": {
+		"scope": "python",
+		"prefix": "map_int_input()",
+		"body": [
+			"map(int, input().split())"
+		],
+		"description": "Log output to console"
+	}
+}
